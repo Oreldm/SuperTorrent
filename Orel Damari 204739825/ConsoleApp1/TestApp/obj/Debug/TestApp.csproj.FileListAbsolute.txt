@@ -1,0 +1,11 @@
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\TestApp.exe
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\TestApp.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\TorrentLibrary.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\TorrentLibrary.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\obj\Debug\TestApp.exe
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\obj\Debug\TestApp.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TestApp\bin\Debug\Newtonsoft.Json.dll
