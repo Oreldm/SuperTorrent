@@ -1,0 +1,11 @@
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.dll.config
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\TorrentLibrary.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\TorrentLibrary.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Debug\WCFService.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Debug\WCFService.csproj.CopyComplete
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Debug\WCFService.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Debug\WCFService.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\bin\Newtonsoft.Json.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache

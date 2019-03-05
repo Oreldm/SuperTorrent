@@ -1,0 +1,76 @@
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\ApplicationInsights.config
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\csc.exe
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\vbc.exe
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\WebPortal.dll.config
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\WebPortal.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\WebPortal.pdb
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.Web.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Newtonsoft.Json.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.Web.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\bin\Newtonsoft.Json.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\obj\Debug\WebPortal.csprojAssemblyReference.cache
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\obj\Debug\WebPortal.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\obj\Debug\WebPortal.csproj.CopyComplete
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\obj\Debug\WebPortal.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\WebPortal\obj\Debug\WebPortal.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\obj\Debug\WebPortal.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\obj\Debug\WebPortal.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\ApplicationInsights.config
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\WebPortal.dll.config
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\WebPortal.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\WebPortal.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.Web.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Newtonsoft.Json.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.Web.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\Newtonsoft.Json.xml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\obj\Debug\WebPortal.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\obj\Debug\WebPortal.csproj.CopyComplete
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\csc.exe
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\vbc.exe
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\TorrentLibrary.dll
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\bin\TorrentLibrary.pdb
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\WebPortal\obj\Debug\WebPortal.csprojAssemblyReference.cache

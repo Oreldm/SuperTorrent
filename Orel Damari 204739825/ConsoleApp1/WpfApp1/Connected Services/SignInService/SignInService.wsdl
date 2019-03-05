@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SignInService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8001/SignInService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8001/SignInService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8001/SignInService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISignInService_login_InputMessage">
+    <wsdl:part name="parameters" element="tns:login" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_sendUserData_InputMessage">
+    <wsdl:part name="parameters" element="tns:sendUserData" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_sendUserData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:sendUserDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getPeers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPeers" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getPeers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPeersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getAllFiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllFiles" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getAllFiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getNumOfUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getNumOfUsers" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getNumOfUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getNumOfUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getActiveUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getActiveUsers" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getActiveUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getActiveUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getTotalUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getTotalUsers" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_getTotalUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getTotalUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_signOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:signOut" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_signOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:signOutResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISignInService">
+    <wsdl:operation name="login">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/login" message="tns:ISignInService_login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/loginResponse" message="tns:ISignInService_login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="sendUserData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/sendUserData" message="tns:ISignInService_sendUserData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/sendUserDataResponse" message="tns:ISignInService_sendUserData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPeers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getPeers" message="tns:ISignInService_getPeers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getPeersResponse" message="tns:ISignInService_getPeers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllFiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getAllFiles" message="tns:ISignInService_getAllFiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getAllFilesResponse" message="tns:ISignInService_getAllFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getNumOfUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getNumOfUsers" message="tns:ISignInService_getNumOfUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getNumOfUsersResponse" message="tns:ISignInService_getNumOfUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getActiveUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getActiveUsers" message="tns:ISignInService_getActiveUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getActiveUsersResponse" message="tns:ISignInService_getActiveUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getTotalUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getTotalUsers" message="tns:ISignInService_getTotalUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getTotalUsersResponse" message="tns:ISignInService_getTotalUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="signOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/signOut" message="tns:ISignInService_signOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/signOutResponse" message="tns:ISignInService_signOut_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISignInService" type="tns:ISignInService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendUserData">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/sendUserData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPeers">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/getPeers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllFiles">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/getAllFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNumOfUsers">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/getNumOfUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActiveUsers">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/getActiveUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTotalUsers">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/getTotalUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="signOut">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/signOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SignInService">
+    <wsdl:port name="BasicHttpBinding_ISignInService" binding="tns:BasicHttpBinding_ISignInService">
+      <soap:address location="http://localhost:8001/SignInService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

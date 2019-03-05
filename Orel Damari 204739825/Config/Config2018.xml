@@ -1,0 +1,8 @@
+{
+  "Ip": "127.0.0.1",
+  "Port": 8005,
+  "Username": "orel",
+  "Password": "1234",
+  "UploadPath": "C:\\UploadPath\\",
+  "DownloadPath": "C:\\DownloadPath\\"
+}

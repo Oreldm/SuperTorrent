@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTorrent", "WpfApp1\SuperTorrent.csproj", "{1E9654E9-11ED-4CC6-8AA9-299A83E23A23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE} = {89EC776D-201A-4FA4-BA11-0F3AB3D247FE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrentLibrary", "TorrentLibrary\TorrentLibrary.csproj", "{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{99E694FC-2BBD-4A4B-84FA-B6D438E95AD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE} = {89EC776D-201A-4FA4-BA11-0F3AB3D247FE}
+		{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82} = {F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediationService", "WCFService\MediationService.csproj", "{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPortal", "..\WebPortal\WebPortal.csproj", "{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE} = {89EC776D-201A-4FA4-BA11-0F3AB3D247FE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9654E9-11ED-4CC6-8AA9-299A83E23A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9654E9-11ED-4CC6-8AA9-299A83E23A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9654E9-11ED-4CC6-8AA9-299A83E23A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9654E9-11ED-4CC6-8AA9-299A83E23A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97DB2DC-DD1E-4C7B-BB95-166C4539DD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E694FC-2BBD-4A4B-84FA-B6D438E95AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E694FC-2BBD-4A4B-84FA-B6D438E95AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E694FC-2BBD-4A4B-84FA-B6D438E95AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E694FC-2BBD-4A4B-84FA-B6D438E95AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F1A41EA-6B09-42D5-BF2E-A7D784042080}
+	EndGlobalSection
+EndGlobal

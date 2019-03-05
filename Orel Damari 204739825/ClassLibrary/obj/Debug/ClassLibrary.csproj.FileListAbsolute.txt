@@ -1,0 +1,9 @@
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\bin\Debug\ClassLibrary1.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\bin\Debug\ClassLibrary1.pdb
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\obj\Debug\ClassLibrary1.dll
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\obj\Debug\ClassLibrary1.pdb
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\minitorrent\MiniTorrent_305214421_208999185\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete
