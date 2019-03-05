@@ -19,3 +19,4 @@ C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WpfApp1\ob
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WpfApp1\obj\Debug\SuperTorrent.csproj.CopyComplete
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WpfApp1\obj\Debug\FileManagerWindow.g.cs
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WpfApp1\obj\Debug\FileManagerWindow.baml
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\WpfApp1\obj\Debug\SuperTorrent.csprojAssemblyReference.cache

@@ -5,3 +5,4 @@ C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TorrentLib
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TorrentLibrary\obj\Debug\TorrentLibrary.pdb
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TorrentLibrary\bin\Debug\Newtonsoft.Json.dll
 C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TorrentLibrary\obj\Debug\TorrentLibrary.csproj.CopyComplete
+C:\Users\oreldm\Desktop\minitorrent\Orel Damari 204739825\ConsoleApp1\TorrentLibrary\obj\Debug\TorrentLibrary.csprojAssemblyReference.cache

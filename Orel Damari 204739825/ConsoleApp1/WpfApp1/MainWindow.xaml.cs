@@ -14,6 +14,7 @@ using System.Windows.Forms;
 using TorrentLibrary;
 using System.Security.Cryptography;
 using System.Web.Script.Serialization;
+using System.Xml.Serialization;
 
 namespace WpfApp1
 {
@@ -91,9 +92,9 @@ namespace WpfApp1
         {
             try
             {
+                XmlSerializer serializer = new XmlSerializer(typeof(ConfigData));
                 StreamReader reader = new StreamReader(CONFIGURATION_PATH + CONFIGURATION_FILE_NAME);
-                string jsonFile = reader.ReadToEnd();
-                configData = JsonConvert.DeserializeObject<ConfigData>(jsonFile);
+                configData = (ConfigData)serializer.Deserialize(reader);
                 reader.Close();
                 AsynchronousSocketListener.filePath = configData.UploadPath;
             }
