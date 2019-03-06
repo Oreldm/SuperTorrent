@@ -15,6 +15,7 @@ using TorrentLibrary;
 using System.Security.Cryptography;
 using System.Web.Script.Serialization;
 using System.Xml.Serialization;
+using System.Reflection;
 
 namespace WpfApp1
 {
@@ -22,9 +23,10 @@ namespace WpfApp1
     public partial class MainWindow : Window
     {
         public static String CONFIGURATION_FILE_NAME = "Config2018.xml";
-        public static String CONFIGURATION_PATH = "C:\\Users\\oreldm\\Desktop\\minitorrent\\Orel Damari 204739825\\Config\\";
+        public static String CONFIGURATION_PATH = "C:\\Users\\oreldm\\Desktop\\Orel Damari 204739825\\Config\\";
         public static ConfigData configData = new ConfigData();
         public static User user;
+        public static FileManagerWindow fileManagerWindow;
 
         public MainWindow()
         {
@@ -34,6 +36,8 @@ namespace WpfApp1
 
         private void SignIn_Btn_Click(object sender, RoutedEventArgs e)
         {
+            if (fileManagerWindow != null)
+                fileManagerWindow = null;
 
             SignInService.SignInServiceClient siService = new SignInService.SignInServiceClient();
             user = new User(configData);
@@ -48,9 +52,9 @@ namespace WpfApp1
             var json = new JavaScriptSerializer().Serialize(user);
             Console.WriteLine(json.ToString());
             siService.sendUserData(json.ToString());
-            FileManagerWindow fileManagerWindow = new FileManagerWindow();
+            fileManagerWindow = new FileManagerWindow();
             fileManagerWindow.ShowDialog();
-
+            
         }
 
         private Dictionary<string,string> readUsersFiles()
@@ -103,6 +107,31 @@ namespace WpfApp1
                 System.Windows.Forms.MessageBox.Show("You have problem in the config\nplease fix it in the settings button", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Console.WriteLine("PROBLEM IN CONFIG");
             }
+
+
+
+            //Reflection That prints the hour
+            try
+            {
+                var DLL = Assembly.LoadFile("C:\\DownloadPath\\TorrentLibrary.dll");
+
+                foreach (Type type in DLL.GetExportedTypes())
+                {
+                    Console.WriteLine(type);
+                    if (type.ToString().Contains("Class1"))
+                    {
+                        var c = Activator.CreateInstance(type);
+                        Console.WriteLine("HERE IS REFLECTION STRING: ");
+                        type.InvokeMember("PrintHour", BindingFlags.InvokeMethod, null, c, new object[] { @"I dont actually need to send this string" });
+                    }
+                }
+            }
+            catch (Exception e) { }
+
+
+            Console.ReadLine();
+
+
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)

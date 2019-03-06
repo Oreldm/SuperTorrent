@@ -10,6 +10,7 @@
     <Grid>
         <Button Name="SignIn_Btn" Content="Sign In" HorizontalAlignment="Left" Margin="60,147,0,0" VerticalAlignment="Top" Width="282" Height="57" FontSize="24" Click="SignIn_Btn_Click"/>
         <Button Name="Settings_Btn" Content="Settings" HorizontalAlignment="Left" Margin="60,209,0,0" VerticalAlignment="Top" Width="282" Height="57" FontSize="24" Click="Settings_Btn_Click"/>
+        <Image Source="C:\Users\oreldm\Desktop\Orel Damari 204739825\WebPortal\Images\SuperTorrent.png" HorizontalAlignment="Left" Height="102" Margin="81,299,0,0" VerticalAlignment="Top" Width="261"/>
     </Grid>
 </Window>
 

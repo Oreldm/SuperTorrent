@@ -8,9 +8,9 @@ namespace TorrentLibrary
 {
     public class Class1
     {
-        public void Output(string s)
+        public void PrintHour(string s)
         {
-            Console.WriteLine(s);
+            Console.WriteLine("the time is now " + string.Format("{0:HH:mm:ss} ", DateTime.Now));
         }
     }
 }

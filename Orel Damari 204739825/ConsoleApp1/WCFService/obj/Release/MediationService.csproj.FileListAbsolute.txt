@@ -1,0 +1,11 @@
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.dll.config
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.dll
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\WCFService.pdb
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\Newtonsoft.Json.dll
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\TorrentLibrary.dll
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\bin\TorrentLibrary.pdb
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Release\MediationService.csprojAssemblyReference.cache
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Release\MediationService.csproj.CoreCompileInputs.cache
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Release\MediationService.csproj.CopyComplete
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Release\WCFService.dll
+C:\Users\oreldm\Desktop\Orel Damari 204739825\ConsoleApp1\WCFService\obj\Release\WCFService.pdb

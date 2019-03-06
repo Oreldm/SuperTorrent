@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Show.aspx.cs" Inherits="WebPortal.Show" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Management.aspx.cs" Inherits="WebPortal.Show" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <h1>Show</h1>
+        <h1>Management</h1>
     <div>
         <asp:Label ID="Label1" runat="server" Text="Active Users:" style="font-weight: 700"></asp:Label>
         <asp:Label ID="lblActiveUsers" runat="server"></asp:Label>
@@ -22,7 +22,9 @@
         <br />
         <asp:Label ID="Label3" runat="server" Text="Active files in server:" style="font-weight: 700"></asp:Label>
     </div>
-        <asp:ListBox ID="listboxFiles" runat="server" Height="63px" Width="438px"></asp:ListBox>
+        <br />
+        <asp:Label ID="lblFiles" runat="server" Text="Label"></asp:Label>
+        <br />
         <br />
         <asp:Label ID="Label4" runat="server" Text="File name to serach:" style="font-weight: 700"></asp:Label>
         <br />
@@ -30,7 +32,9 @@
         <br />
         <asp:ImageButton ID="iBtnSerach" runat="server" Height="60px" ImageUrl="~/Images/serach.png" OnClick="iBtnSerach_Click" Width="438px" />
         <br />
-        <asp:ListBox ID="listSerach" runat="server" Height="63px" Visible="False" Width="438px"></asp:ListBox>
+        <br />
+        <asp:Label ID="LabelFile" runat="server" Text="Label"></asp:Label>
+        <br />
     </form>
 </body>
 </html>

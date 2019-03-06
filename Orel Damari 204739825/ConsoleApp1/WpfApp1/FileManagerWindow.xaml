@@ -11,10 +11,11 @@
         <TextBox x:Name="Search_TextBox" HorizontalAlignment="Left" Height="23" Margin="66,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
         <Button x:Name="Search_Btn" Content="Search File" HorizontalAlignment="Left" Margin="263,160,0,0" VerticalAlignment="Top" Width="76" Click="Search_Btn_Click"/>
         <Label x:Name="MyFiles_Label" Content="My Files :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <ProgressBar x:Name="Download_ProgressBar" HorizontalAlignment="Left" Height="22" Margin="20,479,0,0" VerticalAlignment="Top" Width="319"/>
-        <Label x:Name="searchResult" Content="" HorizontalAlignment="Left" Margin="35,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.015,6.192" Height="245" Width="525"/>
+        <ProgressBar x:Name="Download_ProgressBar" HorizontalAlignment="Left" Height="22" Margin="20,479,0,0" VerticalAlignment="Top" Width="319" ValueChanged="Download_ProgressBar_ValueChanged"/>
+        <Label x:Name="searchResult" HorizontalAlignment="Left" Margin="35,220,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.015,6.192" Height="245" Width="525"/>
         <Label x:Name="MyFiles" Content="Files" HorizontalAlignment="Left" Margin="20,49,0,0" VerticalAlignment="Top" Height="79" Width="325"/>
-        <Button x:Name="Download_Button" Content="Download Now!" HorizontalAlignment="Left" Margin="439,481,0,0" VerticalAlignment="Top" Width="121" Click="Download_Button_Click"/>
+        <Button x:Name="Download_Button" Content="Download Now!" HorizontalAlignment="Left" Margin="366,459,0,0" VerticalAlignment="Top" Width="121" Click="Download_Button_Click"/>
+        <Label x:Name="Progress" Content="Download Progress" HorizontalAlignment="Left" Margin="366,479,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

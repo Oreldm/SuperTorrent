@@ -49,6 +49,12 @@
   <wsdl:message name="ISignInService_getTotalUsers_OutputMessage">
     <wsdl:part name="parameters" element="tns:getTotalUsersResponse" />
   </wsdl:message>
+  <wsdl:message name="ISignInService_signOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:signOut" />
+  </wsdl:message>
+  <wsdl:message name="ISignInService_signOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:signOutResponse" />
+  </wsdl:message>
   <wsdl:portType name="ISignInService">
     <wsdl:operation name="login">
       <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/login" message="tns:ISignInService_login_InputMessage" />
@@ -77,6 +83,10 @@
     <wsdl:operation name="getTotalUsers">
       <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/getTotalUsers" message="tns:ISignInService_getTotalUsers_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/getTotalUsersResponse" message="tns:ISignInService_getTotalUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="signOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISignInService/signOut" message="tns:ISignInService_signOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISignInService/signOutResponse" message="tns:ISignInService_signOut_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_ISignInService" type="tns:ISignInService">
@@ -137,6 +147,15 @@
     </wsdl:operation>
     <wsdl:operation name="getTotalUsers">
       <soap:operation soapAction="http://tempuri.org/ISignInService/getTotalUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="signOut">
+      <soap:operation soapAction="http://tempuri.org/ISignInService/signOut" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

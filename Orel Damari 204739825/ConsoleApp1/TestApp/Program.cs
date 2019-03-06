@@ -15,7 +15,7 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            var DLL = Assembly.LoadFile("C:\\DownloadPath\\TorrentLibrary.dll");
+            var DLL = Assembly.LoadFile("C:\\Users\\oreldm\\Desktop\\minitorrent\\Orel Damari 204739825\\ConsoleApp1\\TorrentLibrary\\bin\\Debug\\TorrentLibrary.dll");
 
             foreach (Type type in DLL.GetExportedTypes())
             {
@@ -23,7 +23,7 @@ namespace TestApp
                 if (type.ToString().Contains("Class1"))
                 {
                     var c = Activator.CreateInstance(type);
-                    type.InvokeMember("Output", BindingFlags.InvokeMethod, null, c, new object[] { @"Hello" });
+                    type.InvokeMember("PrintHour", BindingFlags.InvokeMethod, null, c, new object[] { @"Hello" });
                 }
             }
 

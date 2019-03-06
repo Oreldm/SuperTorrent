@@ -40,7 +40,7 @@ namespace WpfApp1
 
         private void Search_Btn_Click(object sender, RoutedEventArgs e)
         {
-
+            Download_ProgressBar.Value = 0;
             SignInService.SignInServiceClient siService = new SignInService.SignInServiceClient();
             string fileName = Search_TextBox.Text.ToString();
             if (fileName.Equals("*"))
@@ -89,6 +89,17 @@ namespace WpfApp1
             
             searchResult.Content = ret;
         }
+
+/*        public bool changeToUpload(string fileName)
+        {
+            string ret ="/n"+ fileName + " is being uploaded";
+            this.Dispatcher.Invoke(() =>
+            {
+                this.MyFiles.Content = readFilesToStr() + ret;
+            });
+                
+            return true;
+        }*/
 
         private bool checkIfExists(JObject jobj, List<JObject> userDataJson)
         {
@@ -139,6 +150,7 @@ namespace WpfApp1
 
         private void Download_Button_Click(object sender, RoutedEventArgs e)
         {
+            Download_ProgressBar.Value = 0;
             if (file_size == -1)
             {
                 //Unable to download
@@ -213,13 +225,15 @@ namespace WpfApp1
                     ByteArrayToFile(MainWindow.configData.DownloadPath + fileToDownload, bytes);
 
                     AsynchronousClient.totalFile = null;
-
+                    Download_ProgressBar.Value = 100;
                     return;
                 }
 
                 AsynchronousClient.StartClient(ip, port, startedBit, finalBit, fileToDownload,index);
                 startedBit += numOfBitsEachPeer; //first mistake that happened and I fixed (the +1)
                 index++;
+
+                Download_ProgressBar.Value +=100/peers.Count;
             }
 
             try
@@ -245,6 +259,11 @@ namespace WpfApp1
                 Console.WriteLine("Exception caught in process: {0}", ex);
                 return false;
             }
+        }
+
+        private void Download_ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
         }
     }
 

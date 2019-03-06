@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediationService", "WCFService\MediationService.csproj", "{89EC776D-201A-4FA4-BA11-0F3AB3D247FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPortal", "..\WebPortal\WebPortal.csproj", "{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementWebsite", "..\WebPortal\ManagementWebsite.csproj", "{D3A6F955-3A07-472E-A822-1C64FF4B3EB3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{89EC776D-201A-4FA4-BA11-0F3AB3D247FE} = {89EC776D-201A-4FA4-BA11-0F3AB3D247FE}
 	EndProjectSection

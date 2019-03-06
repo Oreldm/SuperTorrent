@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\oreldm\Desktop\Orel Damari 204739825\WebPortal\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administrator.aspx">
+      <publishTime>03/06/2019 02:50:39</publishTime>
+    </File>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/16/2018 12:26:00</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/16/2018 12:26:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/16/2018 12:25:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/16/2018 12:26:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/16/2018 12:25:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/16/2018 12:25:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/16/2018 12:25:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/16/2018 12:25:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>03/16/2018 12:25:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/16/2018 12:25:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>03/16/2018 12:25:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>03/16/2018 12:25:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>03/16/2018 12:25:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>03/16/2018 12:25:52</publishTime>
+    </File>
+    <File Include="bin/TorrentLibrary.dll">
+      <publishTime>03/06/2019 02:40:32</publishTime>
+    </File>
+    <File Include="bin/TorrentLibrary.pdb">
+      <publishTime>03/06/2019 02:40:32</publishTime>
+    </File>
+    <File Include="bin/WebPortal.dll">
+      <publishTime>03/06/2019 03:38:55</publishTime>
+    </File>
+    <File Include="bin/WebPortal.pdb">
+      <publishTime>03/06/2019 03:38:55</publishTime>
+    </File>
+    <File Include="HomePage6.html">
+      <publishTime>03/06/2019 02:53:50</publishTime>
+    </File>
+    <File Include="Images/delete.png">
+      <publishTime>03/06/2019 02:49:25</publishTime>
+    </File>
+    <File Include="Images/register.png">
+      <publishTime>03/06/2019 02:48:50</publishTime>
+    </File>
+    <File Include="Images/serach.png">
+      <publishTime>03/06/2019 02:48:24</publishTime>
+    </File>
+    <File Include="Images/SuperTorrent.png">
+      <publishTime>03/06/2019 02:47:43</publishTime>
+    </File>
+    <File Include="Images/update.png">
+      <publishTime>03/06/2019 02:49:08</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>03/06/2019 03:32:25</publishTime>
+    </File>
+    <File Include="Management.aspx">
+      <publishTime>03/06/2019 02:54:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/16/2018 12:26:00</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>03/06/2019 02:53:01</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>03/16/2018 12:26:00</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>03/16/2018 12:26:02</publishTime>
+    </File>
+    <File Include="Style.css">
+      <publishTime>03/06/2019 03:33:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/06/2019 03:24:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

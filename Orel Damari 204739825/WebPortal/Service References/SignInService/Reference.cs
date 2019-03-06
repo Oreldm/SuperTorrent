@@ -56,6 +56,12 @@ namespace WebPortal.SignInService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISignInService/getTotalUsers", ReplyAction="http://tempuri.org/ISignInService/getTotalUsersResponse")]
         System.Threading.Tasks.Task<string> getTotalUsersAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISignInService/signOut", ReplyAction="http://tempuri.org/ISignInService/signOutResponse")]
+        bool signOut(string userName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ISignInService/signOut", ReplyAction="http://tempuri.org/ISignInService/signOutResponse")]
+        System.Threading.Tasks.Task<bool> signOutAsync(string userName);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -139,6 +145,14 @@ namespace WebPortal.SignInService {
         
         public System.Threading.Tasks.Task<string> getTotalUsersAsync() {
             return base.Channel.getTotalUsersAsync();
+        }
+        
+        public bool signOut(string userName) {
+            return base.Channel.signOut(userName);
+        }
+        
+        public System.Threading.Tasks.Task<bool> signOutAsync(string userName) {
+            return base.Channel.signOutAsync(userName);
         }
     }
 }

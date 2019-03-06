@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using TorrentLibrary;
 using System.IO;
 using Newtonsoft.Json;
+using System.Xml.Serialization;
 
 namespace WpfApp1
 {
@@ -43,12 +44,16 @@ namespace WpfApp1
 
             this.configData = configData;
 
-            File.WriteAllText(MainWindow.CONFIGURATION_PATH + MainWindow.CONFIGURATION_FILE_NAME, JsonConvert.SerializeObject(configData, Formatting.Indented));
+            //File.WriteAllText(MainWindow.CONFIGURATION_PATH + MainWindow.CONFIGURATION_FILE_NAME, JsonConvert.SerializeObject(configData, Formatting.Indented));
+            File.WriteAllText(MainWindow.CONFIGURATION_PATH + MainWindow.CONFIGURATION_FILE_NAME, configData.ToXML());
+
 
             MessageBox.Show("Config Saved");
             this.Close();
 
         }
+
+
 
         private void Cancel_Btn_Click(object sender, RoutedEventArgs e)
         {

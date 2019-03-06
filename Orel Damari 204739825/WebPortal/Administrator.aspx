@@ -32,8 +32,8 @@
             <br />
             <br />
             <br />
-            <asp:ImageButton ID="iBtnUpdate" runat="server" ImageUrl="~/Images/updateUser.png" ValidationGroup="UpdateUser" OnClick="iBtnUpdate_Click" Height="62px" Style="margin-top: 29px" />
-            <asp:ImageButton ID="iBtnDelete" runat="server" Height="62px" ImageUrl="~/Images/deleteUser.png" Width="220px" OnClick="iBtnDelete_Click" />
+            <asp:ImageButton ID="iBtnUpdate" runat="server" ImageUrl="~/Images/update.png" ValidationGroup="UpdateUser" OnClick="iBtnUpdate_Click" Height="62px" Style="margin-top: 29px" />
+            <asp:ImageButton ID="iBtnDelete" runat="server" Height="62px" ImageUrl="~/Images/delete.png" Width="220px" OnClick="iBtnDelete_Click" />
         </div>
 
     </form>

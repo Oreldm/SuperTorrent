@@ -28,7 +28,7 @@
             <br />
             <!--<asp:Button ID="btnRegister" type="submit" runat="server" Text="Register"  ValidationGroup="Registration"/>-->
 
-            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/singup2.png" OnClick="ImageButton1_Click" type="submit" Text="Register" ValidationGroup="Registration" Height="60px" Width="438px" />
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/register.png" OnClick="ImageButton1_Click" type="submit" Text="Register" ValidationGroup="Registration" Height="60px" Width="438px" />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace TorrentLibrary
 {
@@ -26,5 +27,16 @@ namespace TorrentLibrary
 
         [System.Xml.Serialization.XmlElement("DownloadPath")]
         public string DownloadPath { get; set; }
+
+        public string ToXML()
+        {
+            using (var stringwriter = new System.IO.StringWriter())
+            {
+                var serializer = new XmlSerializer(this.GetType());
+                serializer.Serialize(stringwriter, this);
+                return stringwriter.ToString();
+            };
+        }
+
     }
 }

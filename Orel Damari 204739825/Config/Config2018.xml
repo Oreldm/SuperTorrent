@@ -1,8 +1,9 @@
-<ConfigData>
- <Ip>127.0.0.1</Ip>
- <Port>8005</Port>
- <Username>orel</Username>
- <Password>1234</Password>
- <UploadPath>C:\\UploadPath\\</UploadPath>
- <DownloadPath>C:\\DownloadPath\\</DownloadPath>
+<?xml version="1.0" encoding="utf-16"?>
+<ConfigData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ip>127.0.0.1</Ip>
+  <Port>8005</Port>
+  <Username>orel</Username>
+  <Password>1234</Password>
+  <UploadPath>C:\\UploadPath\\</UploadPath>
+  <DownloadPath>C:\\DownloadPath\\</DownloadPath>
 </ConfigData>
